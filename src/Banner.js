@@ -19,7 +19,7 @@ function Banner() {
 				<h1>Get out and stretch your imagination</h1>
 				<h5>Plan a different kind of getaway to uncover the hidden gems near you.</h5>
 				<Button onClick={() => history.push("/search")} variant="outlined">
-					Explore Nearby
+					Explore nearby
 				</Button>
 			</div>
 		</div>

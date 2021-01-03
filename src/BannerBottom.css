@@ -1,0 +1,101 @@
+.bannerBottom {
+	background-color: black;
+	color: white;
+	padding-top: 8vh;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 40px;
+}
+
+.bannerBottom__info {
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 32px;
+}
+
+.bannerBottom__title {
+	display: flex;
+	justify-content: space-between;
+}
+
+.bannerBottom__text > p {
+	font-size: 15px;
+	font-weight: 500;
+	width: 45%;
+}
+
+.bannerBottom__title > button {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	width: auto;
+	background-color: transparent;
+	color: white;
+	text-transform: inherit;
+	/* margin-top: 20px; */
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 18px;
+	border-radius: 8px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: white;
+	padding: 7px 15px;
+	/* transition: box-shadow 0.2s ease-in; */
+}
+
+.bannerBottom__title > button:hover {
+	background-color: rgba(230, 230, 230, 0.336);
+	/* box-shadow: thistle; */
+}
+
+.bannerBottom__card {
+	display: flex;
+}
+
+.bannerBottom__cardLeft {
+	margin-right: 10px;
+	border-radius: 15px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.bannerBottom__cardRight {
+	/* -right: 20px; */
+	border-radius: 15px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.bannerBottom__cardInfo {
+	padding: 16px;
+	font-size: 15px;
+	background-color: rgb(44, 44, 44);
+}
+
+.bannerBottom__cardInfo > h4 {
+	width: 55%;
+}
+
+/* .bannerBottom__cardLeft > img {
+	object-fit: fill;
+	min-width: 300px;
+	min-height: 200px;
+	width: 100%;
+}
+
+.bannerBottom__cardRight {
+	display: flex;
+	flex-direction: column;
+}
+
+.bannerBottom__cardInfo > p {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	margin-top: 4px;
+	margin-bottom: 8px;
+	color: rgb(113, 113, 113);
+	white-space: pre-line;
+} */

@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import Banner from "./Banner";
 import Card from "./Card";
+import BannerBottom from "./BannerBottom";
 
 function Home() {
 	return (
@@ -24,11 +25,7 @@ function Home() {
 					description="Comfortable private places, with room for friends or family"
 				/>
 			</div>
-			<div className="home__section">
-				<Card />
-				<Card />
-				<Card />
-			</div>
+			<BannerBottom />
 		</div>
 	);
 }
